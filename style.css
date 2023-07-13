@@ -1,0 +1,312 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+}
+body{
+    width: 100%;
+    height: 300vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background: rgb(252, 252, 252);
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border:px solid #000;
+    padding:  0px 50px;
+    display: flex;  
+    overflow: hidden;
+}
+header .logo_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .logo_ul img{
+    width: 270px;
+    margin-left: -39px;
+}
+header .logo_ul ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+header .logo_ul ul li{
+    margin-left :699px;
+    margin-right:-600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium
+}
+header .logo_ul ul li a{
+    color: rgb(52, 20, 83);
+    font-size: medium;
+    font-weight: bold;
+    margin-left: -149px;
+    
+}
+header .logo_ul ul li a.hov:hover{
+    text-decoration: none;
+    width: 340px;
+}
+section {
+    width: 100%;
+    height: 600px;
+    border:px solid #000;
+}
+nav{
+    width :550px;
+    height: 600px;
+    border:px solid #000;
+}
+nav h1{
+    color: #3d235b;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: 126px;
+    margin-left: 54px;
+}
+nav h1 span{
+    font-weight: lighter;
+    font-size: 19px;
+    color: #000;
+}
+nav svg{
+    margin-top: 65px;
+    margin-left: 66px;
+    color: #3d235b;
+    height: -74px;
+}
+.img{
+    width : 710px;
+    height: 600px;
+    border:px solid #000;
+    margin-left: 550px;
+    margin-top: -726px;
+}
+.img img{
+    width: 710px;
+    height: 600px;
+}
+.about{
+   width: 100%;
+   height: 400px;
+   margin-top: 39px;
+   background: rgba(255, 255, 255,);
+   margin-top: -16px;
+   border: px solid #000;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+.about h2{
+    margin-left: 533px;
+    margin-top: 50px;
+    padding-top: 5pc;
+    margin-bottom: 754px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida  Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about p{
+    margin-left: 304px;
+    margin-top: -704px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #000;
+    margin-top: 284px;
+    background: rgb(58, 9, 62);
+}
+.service{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding: 0px 50px;
+        bottom: -300px;
+        margin-bottom: 518px;
+       }
+h3{
+    font-size: x-large;
+    color: #000;
+    font-family: 'Lucida  Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 530px;
+    margin-top: 50px;
+}
+      .cards{
+        margin-top: 4030px;
+        margin-bottom:-4820px ;
+        margin-left: -45px;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        padding: 0px 45px;
+    }
+    .cards .card1{
+        position: relative;
+        width: 350px;
+        height: 180px;
+        border: px solid #fff;
+        border-radius: 5px;
+        margin-right: 10px;
+        background: #000;
+        transition: .3s linear;
+    }
+   .cards .card1 .poster{
+        width: 100%;
+        height:100%;
+    }
+    .cards .card1:hover {
+        width: 500px;
+           
+    }
+    .cards .card2{
+        position: relative;
+        width: 270px;
+        height: 180px;
+        border: px solid #fff;
+        border-radius: 5px;
+        margin-right: 10px;
+        background: #000;
+        transition: .3s linear;
+    }
+   .cards .card2 .poster{
+        width: 100%;
+        height:100%;
+    }
+    .cards .card2:hover {
+        width: 500px
+           
+    }
+    .cards .card3{
+        position: relative;
+        width: 300px;
+        height: 180px;
+        border: px solid #fff;
+        border-radius: 5px;
+        margin-right: 10px;
+        background: #000;
+        transition: .3s linear;
+    }
+   .cards .card3 .poster{
+        width: 100%;
+        height:100%;
+    }
+    .cards .card3:hover {
+        width: 500px
+    }
+    .cards .card4{
+        position: relative;
+        width: 300px;
+        height: 180px;
+        border: px solid #fff;
+        border-radius: 5px;
+        margin-right: 10px;
+        background: #000;
+        transition: .3s linear;
+    }
+   .cards .card4 .poster{
+        width: 100%;
+        height:100%;
+    }
+    .cards .card4:hover {
+        width: 500px
+    }
+footer{
+    width:1000%;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #3d235b;
+    margin-top: 400%;
+    margin-bottom: -1750px;
+    margin-left: -64px;
+}
+footer  h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #fcf6f6;
+    margin-left: 63px;
+}
+footer .Channel  a.soci p{
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+    margin-left: 34pc;
+    margin-top:-6px;
+    text-decoration:underline;
+
+}
+footer .Channel  svg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 30pc;
+    margin-bottom: 10px;
+    margin-top: 14px;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #fcf6f6;
+}
+footer .phone svg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 50pc;
+    margin-bottom:41px;
+    margin-top: 1pc;
+    padding: 5px 0px;
+    color: #ffffff;
+}
+footer .phone  a p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 54pc;
+    margin-top: -27.8pc;
+    text-decoration: underline;
+}
+footer .links a {
+    color: #fffafa;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 34pc;
+    margin-bottom:228px;
+    margin-top: -12pc;
+    padding: 1.7px 0px;
+    font-size: 11px;
+    text-decoration: none;
+}
+footer .links a :hover{
+    text-decoration: underline;
+}
+footer .links a :active{
+    color: #000;
+}
+footer .phone a.telephone p{
+ color: #000;
+ margin-top:-60px ;
+ font-size: 13px;
+ text-decoration:none;
+ color: #fff;
+ font-weight: lighter;
+}
+footer .copy{
+    margin-left: 69pc;
+    margin-top: 9pc;
+}
+
+
+
+
