@@ -306,6 +306,89 @@ footer .copy{
     margin-left: 69pc;
     margin-top: 9pc;
 }
+    @media all and ( max-width:600px){
+    body{
+        width: 327px;
+        height: 300vh;
+        overflow-y: visible;
+        overflow-x: hidden;
+        background: rgb(252, 252, 252);
+    }
+    header{
+        position: relative;
+        width: 100%;
+        height: 150px;
+        border:px solid #000;
+        padding:  0px 50px;
+        display: flex;  
+        overflow: hidden;
+    }
+    header .logo_ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .logo_ul img{
+        width: 163px;
+        margin-left: -79px;
+    }
+    header .logo_ul ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    header .logo_ul ul li{
+        margin-left :119px;
+        margin-right:-60px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+    }
+    header .logo_ul ul li a{
+        color: rgb(52, 20, 83);
+        font-size: 14px;
+        font-weight: lighter;
+        margin-left: -149px;
+    }
+   nav{
+       width:20px;
+       height:60px;
+   }
+    nav h1{
+        color: #3d235b;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        margin-top: 26px;
+        margin-left: 10px;
+    }
+    nav h1 span{
+        font-weight: lighter;
+        font-size: 19px;
+        color: #000;
+    }
+    nav svg{
+        margin-top:-63px;
+        margin-left:3vb;
+        color: #3d235b;
+        height: -54px;
+    }
+    .img{
+        width : 10px;
+        height: 10px;
+        border:px solid #000;
+        margin-left: 80px;
+        margin-top: -326px;
+    }
+    .img img{
+        width: 240px;
+        height: 240px;
+    }
+    }
+    
+
+
 
 
 
