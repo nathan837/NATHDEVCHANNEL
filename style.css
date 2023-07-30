@@ -306,7 +306,7 @@ footer .copy{
     margin-left: 69pc;
     margin-top: 9pc;
 }
-    @media all and ( max-width:560px){
+    @media all and ( max-width:360px){
     body{
         width: 327px;
         height: 300vh;
@@ -379,7 +379,7 @@ footer .copy{
         height: 10px;
         border:px solid #000;
         margin-left: 90px;
-        margin-top: -105px;
+        margin-top: -115px;
     }
     .img img{
         width: 240px;
